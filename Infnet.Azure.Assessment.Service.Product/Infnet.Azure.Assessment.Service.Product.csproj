@@ -6,12 +6,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{3893C3CB-A1A8-46F8-B64D-2BF4E7B05434}</ProjectGuid>
+    <ProjectGuid>{FB4955F4-F627-47EB-9D90-7F8D662DAC5E}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Infnet.Azure.Assessment.Service.Order</RootNamespace>
-    <AssemblyName>Infnet.Azure.Assessment.Service.Order</AssemblyName>
+    <RootNamespace>Infnet.Azure.Assessment.Service.Product</RootNamespace>
+    <AssemblyName>Infnet.Azure.Assessment.Service.Product</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <WcfConfigValidationEnabled>True</WcfConfigValidationEnabled>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -60,16 +60,15 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="OrderService.svc" />
+    <Content Include="ProductService.svc" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entities\OrderContract.cs" />
-    <Compile Include="IOrderV2.cs" />
-    <Compile Include="OrderService.svc.cs">
-      <DependentUpon>OrderService.svc</DependentUpon>
+    <Compile Include="Entities\ProductContract.cs" />
+    <Compile Include="ProductService.svc.cs">
+      <DependentUpon>ProductService.svc</DependentUpon>
     </Compile>
-    <Compile Include="IOrderV1.cs" />
+    <Compile Include="IProduct.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -106,9 +105,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>53908</DevelopmentServerPort>
+          <DevelopmentServerPort>54006</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:53908/</IISUrl>
+          <IISUrl>http://localhost:54006/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
