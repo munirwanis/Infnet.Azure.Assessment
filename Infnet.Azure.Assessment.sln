@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infnet.Azure.Assessment.Ent
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infnet.Azure.Assessment.Data", "Infnet.Azure.Assessment.Data\Infnet.Azure.Assessment.Data.csproj", "{2A47C269-8E65-42AC-8C8E-2BF6DB43F428}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WcfServices", "WcfServices", "{B6F1C784-CD3A-4E95-991B-F4884F675E70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infnet.Azure.Assessment.Service.Order", "Infnet.Azure.Assessment.Service.Order\Infnet.Azure.Assessment.Service.Order.csproj", "{3893C3CB-A1A8-46F8-B64D-2BF4E7B05434}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,8 +25,15 @@ Global
 		{2A47C269-8E65-42AC-8C8E-2BF6DB43F428}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A47C269-8E65-42AC-8C8E-2BF6DB43F428}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A47C269-8E65-42AC-8C8E-2BF6DB43F428}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3893C3CB-A1A8-46F8-B64D-2BF4E7B05434}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3893C3CB-A1A8-46F8-B64D-2BF4E7B05434}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3893C3CB-A1A8-46F8-B64D-2BF4E7B05434}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3893C3CB-A1A8-46F8-B64D-2BF4E7B05434}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3893C3CB-A1A8-46F8-B64D-2BF4E7B05434} = {B6F1C784-CD3A-4E95-991B-F4884F675E70}
 	EndGlobalSection
 EndGlobal

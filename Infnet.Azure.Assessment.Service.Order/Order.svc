@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Infnet.Azure.Assessment.Service.Order.Service1" CodeBehind="Order.svc.cs" %>
